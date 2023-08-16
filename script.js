@@ -15,6 +15,21 @@ $(document).ready(function(){
         }
     });
 
+    // function sendEmail(){
+    //     Email.send({
+    //         Host : "smtp.gmail.com",
+    //         Username : "shiwangitiwari123456@gmail.com",
+    //         Password : "nidhi",
+    //         To : 'shiwangitiwari123456@gmail.com',
+    //         From : document.getElementById("email").value,
+    //         Subject : "New contact form Enquiry",
+    //         Body : "And this is the body"
+    //     }).then(
+    //       message => alert(message)
+    //     );
+        
+    // }
+
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
